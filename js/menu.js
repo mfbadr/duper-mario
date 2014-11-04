@@ -18,7 +18,7 @@
     game.load.spritesheet('dude', 'assets/dude.png', 32, 48);
     game.load.spritesheet('coin', 'assets/coin.png', 32, 32);
     game.load.spritesheet('giant_mario', 'assets/giantMario.png', 88.6666, 124);
-    game.load.atlas('goomba', 'assets/goomba.png', '/assets/goomba.json');
+    game.load.atlas('goomba', 'assets/goomba.png', 'assets/goomba.json');
     game.load.spritesheet('blooper', 'assets/enemy-gif/blooper-sprite.png', 32, 48);
 
     // tiles & tile maps
