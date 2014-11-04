@@ -4,44 +4,44 @@
   function preload(){
     /* NOTE: load ALL game assets here */
     // images
-    game.load.image('bg', '/assets/menu-bg.png');
-    game.load.image('bumper', '/assets/bumper.png');
-    game.load.image('gold', '/assets/particles/gold.png');
-    game.load.image('star-part', '/assets/particles/star_particle.png');
-    game.load.image('diamond', '/assets/particles/diamond.png');
-    game.load.image('1up', '/assets/particles/1up.png');
-    game.load.image('star', '/assets/particles/star.png');
-    game.load.image('fireball', '/assets/fireball.png ');
-    game.load.image('trophy', '/assets/trophy.png ');
+    game.load.image('bg', 'assets/menu-bg.png');
+    game.load.image('bumper', 'assets/bumper.png');
+    game.load.image('gold', 'assets/particles/gold.png');
+    game.load.image('star-part', 'assets/particles/star_particle.png');
+    game.load.image('diamond', 'assets/particles/diamond.png');
+    game.load.image('1up', 'assets/particles/1up.png');
+    game.load.image('star', 'assets/particles/star.png');
+    game.load.image('fireball', 'assets/fireball.png ');
+    game.load.image('trophy', 'assets/trophy.png ');
 
     // spritesheets
-    game.load.spritesheet('dude', '/assets/dude.png', 32, 48);
-    game.load.spritesheet('coin', '/assets/coin.png', 32, 32);
-    game.load.spritesheet('giant_mario', '/assets/giantMario.png', 88.6666, 124);
-    game.load.atlas('goomba', '/assets/goomba.png', '/assets/goomba.json');
+    game.load.spritesheet('dude', 'assets/dude.png', 32, 48);
+    game.load.spritesheet('coin', 'assets/coin.png', 32, 32);
+    game.load.spritesheet('giant_mario', 'assets/giantMario.png', 88.6666, 124);
+    game.load.atlas('goomba', 'assets/goomba.png', '/assets/goomba.json');
     game.load.spritesheet('blooper', 'assets/enemy-gif/blooper-sprite.png', 32, 48);
 
     // tiles & tile maps
     game.load.tilemap('level1', 'assets/super_mario.json', null, Phaser.Tilemap.TILED_JSON);
     // gameover uses the same tile sheet as level 1
     game.load.tilemap('gameover', 'assets/gameover.json', null, Phaser.Tilemap.TILED_JSON);
-    game.load.image('SuperMarioBros-World1-1', '/assets/super_mario.png');
+    game.load.image('SuperMarioBros-World1-1', 'assets/super_mario.png');
     game.load.tilemap('level2', 'assets/platform.json', null, Phaser.Tilemap.TILED_JSON);
-    game.load.image('platformer_tiles', '/assets/platformer_tiles.png');
+    game.load.image('platformer_tiles', 'assets/platformer_tiles.png');
 
     // audio
-    game.load.audio('splash', '/assets/audio/splash.mp3');
-    game.load.audio('jump', '/assets/audio/mario-woohoo.wav');
-    game.load.audio('fireball', '/assets/audio/cannon-shot.wav');
-    game.load.audio('bossdead', '/assets/audio/fireball.wav');
-    game.load.audio('swim','/assets/audio/water.wav');
-    game.load.audio('haha', '/assets/audio/mario-haha.wav');
-    game.load.audio('pain', '/assets/audio/mario-pain.wav');
-    game.load.audio('coin', ['/assets/audio/sonic_ring.wav', '/assets/audio/sonic_ring.ogg']);
-    game.load.audio('level1Music', '/assets/audio/level-one-theme.ogg');
-    game.load.audio('level2Music', '/assets/audio/level-two-theme.ogg');
-    game.load.audio('gameOver', '/assets/audio/game-over.wav');
-    game.load.audio('victory', '/assets/audio/victory.wav');
+    game.load.audio('splash', 'assets/audio/splash.mp3');
+    game.load.audio('jump', 'assets/audio/mario-woohoo.wav');
+    game.load.audio('fireball', 'assets/audio/cannon-shot.wav');
+    game.load.audio('bossdead', 'assets/audio/fireball.wav');
+    game.load.audio('swim','assets/audio/water.wav');
+    game.load.audio('haha', 'assets/audio/mario-haha.wav');
+    game.load.audio('pain', 'assets/audio/mario-pain.wav');
+    game.load.audio('coin', ['assets/audio/sonic_ring.wav', 'assets/audio/sonic_ring.ogg']);
+    game.load.audio('level1Music', 'assets/audio/level-one-theme.ogg');
+    game.load.audio('level2Music', 'assets/audio/level-two-theme.ogg');
+    game.load.audio('gameOver', 'assets/audio/game-over.wav');
+    game.load.audio('victory', 'assets/audio/victory.wav');
 
   }
 
